@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button {
+  font: inherit;
+  padding: 0.5rem;
+}
+
+/* // fonts */
+
+main {
+  min-height: 100vh;
+  background-color: green;
+  font-family: monospace;
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-weight: 600;
+  padding: 0 2.8rem;
+}
+
+input {
+  margin: 1rem;
+}
